@@ -195,15 +195,9 @@ export default function BlogPage() {
 
       {/* Hero Section */}
       <div
-        className="w-full flex flex-col items-center"
-        style={{
-          padding: "44px 124px",
-          gap: "44px",
-          minHeight: "100vh",
-          boxSizing: "border-box",
-        }}
+        className="w-full flex flex-col items-center overflow-x-hidden px-4 md:px-[124px] gap-11 min-h-screen"
       >
-        <div className="w-[616px] flex flex-col items-center gap-4" style={{padding: 0, margin: 0}}>
+        <div className="w-full max-w-[616px] flex flex-col items-center gap-4 px-0">
           <h1
             className="font-manrope text-[48px] font-medium leading-[110%] tracking-[-0.03em] text-white text-center"
             style={{
@@ -250,10 +244,8 @@ export default function BlogPage() {
           {/* Blog Post 1 */}
           <Link href="/blog/workflow-automation" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -283,7 +275,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
@@ -317,10 +309,8 @@ export default function BlogPage() {
           {/* Blog Post 2 */}
           <Link href="/blog/ai-automation-costs" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -350,7 +340,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
@@ -384,10 +374,8 @@ export default function BlogPage() {
           {/* Blog Post 3 */}
           <Link href="/blog/ai-integration-strategies" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -417,7 +405,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
@@ -451,10 +439,8 @@ export default function BlogPage() {
           {/* Blog Post 4 */}
           <Link href="/blog/no-code-platform" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -484,7 +470,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
@@ -518,10 +504,8 @@ export default function BlogPage() {
           {/* Blog Post 5 */}
           <Link href="/blog/ai-vs-manual" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -551,7 +535,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
@@ -585,10 +569,8 @@ export default function BlogPage() {
           {/* Blog Post 6 */}
           <Link href="/blog/blockchain-business" className="block w-full">
             <div
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-[380px] max-w-full"
               style={{
-                width: "380px",
-                maxWidth: "100%",
                 boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
                 borderRadius: "24px",
                 border: "1px solid rgba(128, 100, 232, 0.12)",
@@ -618,7 +600,7 @@ export default function BlogPage() {
 
               {/* Content Container */}
               <div
-                className="w-full p-6 flex flex-col"
+                className="w-full p-4 flex flex-col"
                 style={{
                   background:
                     "radial-gradient(110% 162% at 149.6% -46.2%, rgba(69, 106, 255, 0.64) 0%, rgba(11, 11, 14, 0.64) 100%)",
