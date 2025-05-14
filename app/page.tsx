@@ -15,7 +15,7 @@ export default function BlogPage() {
 
       {/* Navigation - Sticky Header */}
       { !menuOpen && (
-        <div className="sticky top-2 z-10 w-full max-w-[1192px] mx-auto">
+        <div className="sticky top-2 z-50 w-full max-w-[1192px] mx-auto">
           <div className="backdrop-blur-md bg-[rgba(11,11,14,0.36)] w-full rounded-full px-5 py-3 flex items-center justify-between h-[76px] md:h-[76px] sm:h-[64px]">
             <div className="flex items-center">
               {/* Logo container */}
