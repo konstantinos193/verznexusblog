@@ -195,7 +195,7 @@ export default function BlogPage() {
 
       {/* Hero Section */}
       <div
-        className="w-full flex flex-col items-center overflow-x-hidden px-4 md:px-[124px] gap-11 min-h-screen"
+        className="w-full flex flex-col items-center overflow-x-hidden px-4 md:px-[124px] gap-11 min-h-screen mt-8 md:mt-16"
       >
         <div className="w-full max-w-[616px] flex flex-col items-center gap-4 px-0">
           <h1
